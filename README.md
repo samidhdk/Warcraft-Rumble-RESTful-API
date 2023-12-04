@@ -4,7 +4,7 @@ This is the unnoficial Warcraft Rumble API. This project aims to deliver the bas
 
 All objects are returned as a JSON list.
 
-You can access the FastAPI Docs at: *SOON*.
+You can access the FastAPI Docs at: **SOON**. (Docker works fine locally, testing DNS name)
 
 
 --- 
