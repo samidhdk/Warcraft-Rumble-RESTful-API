@@ -28,13 +28,13 @@ A unit is represented as:
 
 ```javascript
 {
-  'id': 1,
-  'cost': 6,
-  'name': 'Abomination',
-  'faction': 'Undead',
-  'type': 'Troop',
-  'description': 'This Tanky mass of flesh and steel will Hook ranged enemies, drawing them into his Cleave attack.',
-  'traits': [
+  "id": 1,
+  "cost": 6,
+  "name": "Abomination",
+  "faction": "Undead",
+  "type": "Troop",
+  "description": "This Tanky mass of flesh and steel will Hook ranged enemies, drawing them into his Cleave attack.",
+  "trait": [
       "Tank",
       "Hook",
       "Melee",
