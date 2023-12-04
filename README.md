@@ -26,7 +26,7 @@ Every unit has the following attributes and data types:
 
 A unit is represented as: 
 
-```javascript
+```json
 {
   "id": 1,
   "cost": 6,
@@ -134,7 +134,7 @@ Example:  ` /units/traits/Tank?s1=Melee&s2=Fast&s3=Elemental `
 
 Will return: 
 
-``` javascript
+``` json
 {
 "id": 5,
 "cost": 4,
