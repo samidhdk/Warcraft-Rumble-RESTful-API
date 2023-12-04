@@ -1,0 +1,962 @@
+{
+  "1": {
+    "id": 1,
+    "cost": 6,
+    "name": "Abomination",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "This Tanky mass of flesh and steel will Hook ranged enemies, drawing them into his Cleave attack.",
+    "traits": [
+      "Tank",
+      "Hook",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "2": {
+    "id": 2,
+    "cost": 2,
+    "name": "Angry Chickens",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A flock of feathered fowl that can overwhelm even the heartiest of Tanks and Towers.",
+    "traits": [
+      "Cycle",
+      "Fast",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "3": {
+    "id": 3,
+    "cost": 1,
+    "name": "Arcane Blast",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "This spell surges with power! Each extra tap increases Gold cost by 1 and doubles the Elemental damage!",
+    "traits": [
+      "Elemental",
+      "Cycle",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "4": {
+    "id": 4,
+    "cost": 4,
+    "name": "Banshee",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "Shrieks in delight at nearby enemies, Possessing the first she sees to fight for you, permanently.",
+    "traits": [
+      "Possesion",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "5": {
+    "id": 5,
+    "cost": 4,
+    "name": "Baron Rivendare",
+    "faction": "Undead",
+    "type": "Leader",
+    "description": "Bane of the Scarlet Crusade.",
+    "traits": [
+      "Tank",
+      "Armored",
+      "Elemental",
+      "Fast",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "6": {
+    "id": 6,
+    "cost": 2,
+    "name": "Bat Rider",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "A cheap aerial unit that specializes in bathing the ground in flame while Flying above Melee enemies.",
+    "traits": [
+      "Elemental",
+      "Bombard",
+      "Cycle",
+      "Flying",
+      "AoE"
+    ]
+  },
+  "7": {
+    "id": 7,
+    "cost": 4,
+    "name": "Blizzard",
+    "faction": "Alliance",
+    "type": "Spell",
+    "description": "Rain down Frost shards from the sky! Slows and deals Elemental damage to all enemies in a large area.",
+    "traits": [
+      "Frost",
+      "Elemental",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "8": {
+    "id": 8,
+    "cost": 4,
+    "name": "Bloodmage Thalnos",
+    "faction": "Undead",
+    "type": "Leader",
+    "description": "Blood magic is thicker than water magic.",
+    "traits": [
+      "Elemental",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "9": {
+    "id": 9,
+    "cost": 5,
+    "name": "Cairne Bloodhoof",
+    "faction": "Horde",
+    "type": "Leader",
+    "description": "The original Elite Tauren Chieftain.",
+    "traits": [
+      "Tank",
+      "Attack Stun",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "10": {
+    "id": 10,
+    "cost": 2,
+    "name": "Chain Lightning",
+    "faction": "Horde",
+    "type": "Spell",
+    "description": "Swarmed by Squads of smaller foes? Send a surge of lightning sizzling through several enemies!",
+    "traits": [
+      "Cycle",
+      "Elemental",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "11": {
+    "id": 11,
+    "cost": 2,
+    "name": "Charlga Razorflank",
+    "faction": "Beast",
+    "type": "Leader",
+    "description": "Your Minis in hand share the same cost. What???",
+    "traits": [
+      "Percent Damage",
+      "Bombard",
+      "Attack Root",
+      "Cycle",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "12": {
+    "id": 12,
+    "cost": 3,
+    "name": "Cheat Death",
+    "faction": "Undead",
+    "type": "Spell",
+    "description": "Imbue your minions with one last breath of death, preventing them from dying for a precious few seconds.",
+    "traits": [
+      "Spell",
+      "AoE"
+    ]
+  },
+  "13": {
+    "id": 13,
+    "cost": 6,
+    "name": "Core Hounds",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "This pair of Resistant Tanks is only dead when both are snuffed out. When one falls, the other rekindles it!",
+    "traits": [
+      "Resistant",
+      "Revive",
+      "Tank",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "14": {
+    "id": 14,
+    "cost": 2,
+    "name": "Dark Iron Miner",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "When there's more Gold than your Kobold can mine, hire another to mine behind enemy lines!",
+    "traits": [
+      "Unbound",
+      "Miner",
+      "Cycle",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "15": {
+    "id": 15,
+    "cost": 3,
+    "name": "Darkspear Troll",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "This headhunter deals massive damage with savage spear throws. Enemies in the air beware!",
+    "traits": [
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "16": {
+    "id": 16,
+    "cost": 4,
+    "name": "Deep Breath",
+    "faction": "Blackrock",
+    "type": "Spell",
+    "description": "Strike with dragon's breath in any direction, dealing Elemental damage to enemies in the line of fire!",
+    "traits": [
+      "Elemental",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "17": {
+    "id": 17,
+    "cost": 1,
+    "name": "Defias Bandits",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "Stealthy and weak on their own, but will sneak up and Stun enemies while your damage dealers open fire!",
+    "traits": [
+      "Stealth",
+      "Cheap Shot",
+      "Cycle",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "18": {
+    "id": 18,
+    "cost": 4,
+    "name": "Drake",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Flies over the battlefield with flaming breath, incinerating Flying and Ground enemies alike.",
+    "traits": [
+      "Elemental",
+      "Flying",
+      "AoE"
+    ]
+  },
+  "19": {
+    "id": 19,
+    "cost": 3,
+    "name": "Earth Elemental",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Drop this heavily Armored avalanche anywhere to Tank for your troops. Only punches Towers and Bosses.",
+    "traits": [
+      "Tank",
+      "Armored",
+      "Unbound",
+      "Siege Damage",
+      "Siege Specialist",
+      "One-Target"
+    ]
+  },
+  "20": {
+    "id": 20,
+    "cost": 3,
+    "name": "Execute",
+    "faction": "Horde",
+    "type": "Spell",
+    "description": "Savagely slice through enemies, chopping off half of their maximum Health in one swipe.",
+    "traits": [
+      "Spell",
+      "AoE"
+    ]
+  },
+  "21": {
+    "id": 21,
+    "cost": 4,
+    "name": "Fire Elemental",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Resistant to Elemental damage. Specializes in Cleaving through Armored enemies.",
+    "traits": [
+      "Tank",
+      "Elemental",
+      "Resistant",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "22": {
+    "id": 22,
+    "cost": 4,
+    "name": "Firehammer",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Furiously flings fiery hammers at foes. Starts slow, but her Armor melting momentum can't be matched.",
+    "traits": [
+      "Elemental",
+      "Fury",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "23": {
+    "id": 23,
+    "cost": 4,
+    "name": "Flamewaker",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Ignites the ground with waves of flame, incinerating supporting troops behind enemy Tanks.",
+    "traits": [
+      "Elemental",
+      "Bomabrd",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "24": {
+    "id": 24,
+    "cost": 5,
+    "name": "Footmen",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "An Armored phalanx Squad of steel, a great Tank for fragile allies, and can be split to defend two lanes at once!",
+    "traits": [
+      "Armored",
+      "Tank",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "25": {
+    "id": 25,
+    "cost": 4,
+    "name": "Frostwolf Shaman",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "Why choose between Ranged damage and Healing when you can have both? Elemental mastery to heal and harm!",
+    "traits": [
+      "Elemental",
+      "Healer",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "26": {
+    "id": 26,
+    "cost": 4,
+    "name": "Gargoyle",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "A Flying fortress of Armor. This single-minded Tank attacks buildings and bosses, ignoring all other distractions.",
+    "traits": [
+      "Tank",
+      "Siege Damage",
+      "Armored",
+      "Flying",
+      "Siege Specialist",
+      "One-Target"
+    ]
+  },
+  "27": {
+    "id": 27,
+    "cost": 5,
+    "name": "General Drakkisath",
+    "faction": "Blackrock",
+    "type": "Leader",
+    "description": "A cunning and ruthless strategist.",
+    "traits": [
+      "Tank",
+      "Elemental",
+      "Resistant",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "28": {
+    "id": 28,
+    "cost": 2,
+    "name": "Ghoul",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "A cheap but ravenous Tank, ready to feast on fallen enemies to replenish its Health.",
+    "traits": [
+      "Tank",
+      "Cannibalize",
+      "Cycle",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "29": {
+    "id": 29,
+    "cost": 3,
+    "name": "Gnoll Brute",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A tough Tank with a menacing mace. Cleaves through Squads of enemies, or clobbers with collateral damage.",
+    "traits": [
+      "Tank",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "30": {
+    "id": 30,
+    "cost": 2,
+    "name": "Goblin Sapper",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "Sappers sacrifice themselves to deliver superior Siege damage in seconds. Topple Towers with this tag team!",
+    "traits": [
+      "Siege Damage",
+      "Cycle",
+      "Siege Specialist",
+      "Squad"
+    ]
+  },
+  "31": {
+    "id": 31,
+    "cost": 4,
+    "name": "Grommash Hellscream",
+    "faction": "Horde",
+    "type": "Leader",
+    "description": "Don't call me Grom!",
+    "traits": [
+      "tank",
+      "Bloodlist",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "32": {
+    "id": 32,
+    "cost": 2,
+    "name": "Gryphon Rider",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "A sky-riding Flier that throws mighty dwarven hammers at aerial and ground troops alike.",
+    "traits": [
+      "Cycle",
+      "Flying",
+      "One-Target"
+    ]
+  },
+  "33": {
+    "id": 33,
+    "cost": 3,
+    "name": "Harpies",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A trio of fragile Fliers, but if they can reach their target, they will shred it in seconds.",
+    "traits": [
+      "Fast",
+      "Flying",
+      "Squad"
+    ]
+  },
+  "34": {
+    "id": 34,
+    "cost": 3,
+    "name": "Harvest Golem",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "A hearty Melee automaton with a trick up its sleeve - After its first death it will shock itself back to life!",
+    "traits": [
+      "Tank",
+      "Rebirth",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "35": {
+    "id": 35,
+    "cost": 4,
+    "name": "Hogger",
+    "faction": "Beast",
+    "type": "Leader",
+    "description": "The legendary terror of Elwynn Forest. Mercilessly CLEAVES aspiring adventurers and rallies Gnoll Brutes to his cause.",
+    "traits": [
+      "Tank",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "36": {
+    "id": 36,
+    "cost": 3,
+    "name": "Holy Nova",
+    "faction": "Alliance",
+    "type": "Spell",
+    "description": "Bathe friend and foe in holy light, Healing allies and damaging enemies to turn the tide of battle!",
+    "traits": [
+      "Elemental",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "37": {
+    "id": 37,
+    "cost": 5,
+    "name": "Huntress",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "A Fast and lethal Ranged rider. Her glaives slice through Squads, bouncing from foe to foe.",
+    "traits": [
+      "Fast",
+      "Resistant",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "38": {
+    "id": 38,
+    "cost": 3,
+    "name": "Jaina Proudmoore",
+    "faction": "Alliance",
+    "type": "Leader",
+    "description": "Jaina makes her own bling.",
+    "traits": [
+      "Elemental",
+      "Frost",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "39": {
+    "id": 39,
+    "cost": 6,
+    "name": "Living Bomb",
+    "faction": "Blackrock",
+    "type": "Spell",
+    "description": "Plant a bomb on a group of enemies that all blow up for excessive collateral damage. The more the flamier!",
+    "traits": [
+      "Elemental",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "40": {
+    "id": 40,
+    "cost": 6,
+    "name": "Maiev Shadowsong",
+    "faction": "Alliance",
+    "type": "Leader",
+    "description": "Wield the shadows and strike like the wind.",
+    "traits": [
+      "Stealth",
+      "Unbound",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "41": {
+    "id": 41,
+    "cost": 3,
+    "name": "Meat Wagon",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "Sieges enemies with slabs of meat. Bombards from so far away that it outranges Towers!",
+    "traits": [
+      "Siege Damage",
+      "Longshot",
+      "Bombard",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "42": {
+    "id": 42,
+    "cost": 6,
+    "name": "Molten Giant",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "A wall of Armored obsidian. Slow and lumbering but devastating to Towers. The ultimate Melee Tank.",
+    "traits": [
+      "Tank",
+      "Armored",
+      "Siege Damage",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "43": {
+    "id": 43,
+    "cost": 6,
+    "name": "Mountaineer",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "This inseparable Tank and Ranged pair cover each other for an instantly effective offensive!",
+    "traits": [
+      "Heal Squadmate",
+      "Tank",
+      "Melee",
+      "Ranged",
+      "Squad"
+    ]
+  },
+  "44": {
+    "id": 44,
+    "cost": 2,
+    "name": "Murloc Tidehunters",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "Fast and cheap, great for supporting Tanks and taking Treasure Chests, but weak on their own.",
+    "traits": [
+      "Fast",
+      "Cycle",
+      "Ranged",
+      "Squad"
+    ]
+  },
+  "45": {
+    "id": 45,
+    "cost": 4,
+    "name": "Necromancer",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "Endlessly summons Skeletons for protection while piercing through Armor with Elemental shadow bolts.",
+    "traits": [
+      "Elemental",
+      "Summoner",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "46": {
+    "id": 46,
+    "cost": 5,
+    "name": "Ogre Mage",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "Hurling fireballs is always brutal, but this Magi also buffs nearby allies with Bloodlust. More bang for your buck!",
+    "traits": [
+      "Elemental",
+      "Bloodlust",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "47": {
+    "id": 47,
+    "cost": 4,
+    "name": "Old Murk-Eye",
+    "faction": "Beast",
+    "type": "Leader",
+    "description": "This seasoned Murloc has (and hasn't) seen plenty of battles. If you can shell out the Gold, his entourage of Tidehunters is shore to make waves on the battlefield.",
+    "traits": [
+      "Fast",
+      "Elemental",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "48": {
+    "id": 48,
+    "cost": 2,
+    "name": "Plague Farmer",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "Bombards enemy ground troops with Poisonous pumpkins. Keep him alive and watch enemies rot!",
+    "traits": [
+      "Poisonous",
+      "Bombard",
+      "Cycle",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "49": {
+    "id": 49,
+    "cost": 3,
+    "name": "Polymorph",
+    "faction": "Beast",
+    "type": "Spell",
+    "description": "Morphs your foes into fluffy yet feeble sheep, stripping them of their defenses and making them Vulnerable for a precious few seconds!",
+    "traits": [
+      "Spell",
+      "AoE"
+    ]
+  },
+  "50": {
+    "id": 50,
+    "cost": 3,
+    "name": "Prowler",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A Fast and ferocious Melee Tank. Sprints ahead to protect slower troops, or defend a far away fight.",
+    "traits": [
+      "Fast",
+      "Tank",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "51": {
+    "id": 51,
+    "cost": 3,
+    "name": "Pyromancer",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Sometimes you need to light an enemy on fire. She prefers to light them all on fire.",
+    "traits": [
+      "Elemental",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "52": {
+    "id": 52,
+    "cost": 2,
+    "name": "Quilboar",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "Surprise your enemies with this Unbound Melee burrower! Slow to emerge but bristling for a fight.",
+    "traits": [
+      "Unbound",
+      "Resistant",
+      "Cycle",
+      "Tank",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "53": {
+    "id": 53,
+    "cost": 1,
+    "name": "Raptors",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "Fast savage slashers! Each extra tap increases Gold cost by 1 and deploys an additional Raptor.",
+    "traits": [
+      "Fast",
+      "Cycle",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "54": {
+    "id": 54,
+    "cost": 6,
+    "name": "Rend Blackhand",
+    "faction": "Blackrock",
+    "type": "Leader",
+    "description": "Riding dragons before it was coool.",
+    "traits": [
+      "Dismount",
+      "Elemental",
+      "Flying",
+      "AoE"
+    ]
+  },
+  "55": {
+    "id": 55,
+    "cost": 3,
+    "name": "S.A.F.E. Pilot",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "A flexible Ranged unit. Crash her into enemies or land her behind your Tanks for Area Damage support.",
+    "traits": [
+      "Elemental",
+      "Unbound",
+      "Ranged",
+      "AoE"
+    ]
+  },
+  "56": {
+    "id": 56,
+    "cost": 4,
+    "name": "Skeleton Party",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "A Frosty surprise for any location! Raise a Squad of Ranged and Melee Skeletons to assist with any skirmish.",
+    "traits": [
+      "Unbound",
+      "Elemental",
+      "Frost",
+      "Melee",
+      "Ranged",
+      "Squad"
+    ]
+  },
+  "57": {
+    "id": 57,
+    "cost": 2,
+    "name": "Skeletons",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "These Skeletons can arise anywhere on the map to distract enemies or claim a remote resource.",
+    "traits": [
+      "Unbound",
+      "Cycle",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "58": {
+    "id": 58,
+    "cost": 1,
+    "name": "Smoke Bomb",
+    "faction": "Blackrock",
+    "type": "Spell",
+    "description": "Get the drop on your enemies by granting Stealth to nearby allies. Use in a skirmish to confuse the enemy!",
+    "traits": [
+      "Cycle",
+      "Spell",
+      "AoE"
+    ]
+  },
+  "59": {
+    "id": 59,
+    "cost": 5,
+    "name": "Sneed",
+    "faction": "Blackrock",
+    "type": "Leader",
+    "description": "When you are a buzzsaw, all your problems look like trees.",
+    "traits": [
+      "Tank",
+      "Armored",
+      "Siege Damage",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "60": {
+    "id": 60,
+    "cost": 2,
+    "name": "Spiderlings",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A Squad of Poisonous predators. Their venom will pierce Armor and down even the mightiest of Tanks.",
+    "traits": [
+      "Poisonous",
+      "Cycle",
+      "Vulnerable",
+      "Melee",
+      "AoE"
+    ]
+  },
+  "61": {
+    "id": 61,
+    "cost": 4,
+    "name": "Stonehoof Tauren",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "An exceptionally beefy bruiser that will Charge into battle, and even Charge while she's in battle!",
+    "traits": [
+      "Tank",
+      "Charge",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "62": {
+    "id": 62,
+    "cost": 6,
+    "name": "Sylvannas Windrunner",
+    "faction": "Undead",
+    "type": "Leader",
+    "description": "Sylvanas attacks with unrelenting arrow shots, and releases a Banshee when she dies.",
+    "traits": [
+      "Haunt",
+      "Ranged",
+      "One-Target"
+    ]
+  },
+  "63": {
+    "id": 63,
+    "cost": 4,
+    "name": "Tirion Fordring",
+    "faction": "Alliance",
+    "type": "Leader",
+    "description": "A hammer of CLEAVING , a hand of HEALING , and ARMOR of believing. What more do you need?",
+    "traits": [
+      "Tank",
+      "Armored",
+      "Healer",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "64": {
+    "id": 64,
+    "cost": 1,
+    "name": "Vultures",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A cheap pair of Flying scavengers. Two vultures are a nuisance, but each vulture victim adds to the flock!",
+    "traits": [
+      "Cycle",
+      "Carrion",
+      "Flying",
+      "Squad"
+    ]
+  },
+  "65": {
+    "id": 65,
+    "cost": 5,
+    "name": "Warsong Grunts",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "While slow and steady at the start, this Squad of fighters will speed up, Furiously slashing at frightened foes.",
+    "traits": [
+      "Fury",
+      "Tank",
+      "Melee",
+      "Squad"
+    ]
+  },
+  "66": {
+    "id": 66,
+    "cost": 4,
+    "name": "Warsong Raider",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "This Fast rider smashes Towers with savage sustained Siege damage. Clear a path and she'll clear the rest.",
+    "traits": [
+      "Siege Damage",
+      "Fast",
+      "Tank",
+      "Melee",
+      "One-Target"
+    ]
+  },
+  "67": {
+    "id": 67,
+    "cost": 3,
+    "name": "Whelp Eggs",
+    "faction": "Blackrock",
+    "type": "Troop",
+    "description": "Drop these eggs anywhere on the battlefield to surprise Melee enemies with many fiery Flying whelps!",
+    "traits": [
+      "Elemental",
+      "Unbound",
+      "Hatching",
+      "Flying",
+      "Squad"
+    ]
+  },
+  "68": {
+    "id": 68,
+    "cost": 3,
+    "name": "Worgen",
+    "faction": "Alliance",
+    "type": "Troop",
+    "description": "This Stealthy predator assassinates annoying Ranged units. Play him anywhere and tear their support apart!",
+    "traits": [
+      "Stealth",
+      "Ambush",
+      "Unbound",
+      "Melee",
+      "One-Target"
+    ]
+  }
+}
