@@ -1,8 +1,8 @@
-<h1 align="center">Unnoficial Warcraft Rumble RESTful API</h1>
+<h1 align="center">Unofficial Warcraft Rumble RESTful API</h1>
 
 ![title](Images/wcrumbleuoapi.jpg)
 
-This is the unnoficial Warcraft Rumble RESTful API. This project aims to deliver the basics of [Warcraft Rumble](https://warcraftrumble.blizzard.com) until [Blizzard](https://www.blizzard.com) releases their own.
+This is the unofficial Warcraft Rumble RESTful API. This project aims to deliver the basics of [Warcraft Rumble](https://warcraftrumble.blizzard.com) until [Blizzard](https://www.blizzard.com) releases their own.
 
 All objects are returned as a JSON.
 
