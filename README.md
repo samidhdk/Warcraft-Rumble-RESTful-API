@@ -1,8 +1,8 @@
-<h1 align="center">Unnoficial Warcraft Rumble API</h1>
+<h1 align="center">Unnoficial Warcraft Rumble RESTful API</h1>
 
-This is the unnoficial Warcraft Rumble API. This project aims to deliver the basics of [Warcraft Rumble](https://warcraftrumble.blizzard.com) until [Blizzard](https://www.blizzard.com) releases their own.
+This is the unnoficial Warcraft Rumble RESTful API. This project aims to deliver the basics of [Warcraft Rumble](https://warcraftrumble.blizzard.com) until [Blizzard](https://www.blizzard.com) releases their own.
 
-All objects are returned as a JSON list.
+All objects are returned as a JSON.
 
 You can access the FastAPI Docs at: **SOON**. (Docker works fine locally, testing DNS name)
 
@@ -155,10 +155,10 @@ Will return:
 
 # Future Updates and Feedback
 
-This API is very likely to be updated in the future.
+This RESTful API is very likely to be updated in the future.
 
 If you have any suggestion, feel free to contact me.
 
 # Disclaimer
 
-This API **is not** affiliated with or endorsed by Activision Blizzard, Inc.
+This RESTful API **is not** affiliated with or endorsed by Activision Blizzard, Inc.
