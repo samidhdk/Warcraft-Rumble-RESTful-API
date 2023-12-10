@@ -958,5 +958,19 @@
       "Melee",
       "One-Target"
     ]
+  },
+  "69": {
+    "id": 69,
+    "cost": 5,
+    "name": "Chimaera",
+    "faction": "Beast",
+    "type": "Troop",
+    "description": "A Flying malefic monstrosity that rains down Poison and Lightning on multiple miniscule minions.",
+    "traits": [
+      "Flying",
+      "AoE",
+      "Poisonous",
+      "Elemental"
+    ]
   }
 }
