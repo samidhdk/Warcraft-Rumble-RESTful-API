@@ -59,7 +59,7 @@ Retrieves a JSON file containing information about all available units.
 
 Retrieves a JSON file containing information about the specified unit.
 
-` id options: 1 - 68 `
+` id options: 1 - 69 `
 
 ## /units/faction/{unit_faction}
 
@@ -158,6 +158,8 @@ Will return:
 # Future Updates and Feedback
 
 This RESTful API is very likely to be updated in the future.
+
+All the units from Season 2 onwards will be added at the end of the JSON and not alphabetically.
 
 If you have any suggestion, feel free to contact me.
 
