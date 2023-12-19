@@ -32,7 +32,7 @@
     "cost": 1,
     "name": "Arcane Blast",
     "faction": "Alliance",
-    "type": "Troop",
+    "type": "Spell",
     "description": "This spell surges with power! Each extra tap increases Gold cost by 1 and doubles the Elemental damage!",
     "traits": [
       "Elemental",
