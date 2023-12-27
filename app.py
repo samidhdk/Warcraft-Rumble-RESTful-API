@@ -123,7 +123,15 @@ async def add_unit(new_card_id: int, card: Card):
                 raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                                     detail=f"Inserction of Card with id: {new_card_id} failed.")
 
-
+@app.get("/units/talents/{unit_id}")
+async def get_units_talents(unit_id: int = Path(..., description="ID of the unit you want to retrieve the talents")):
+    cursor = collection.find_one({'id': unit_id}, {'talents': 1, '_id': 0})
+    if cursor:
+        json_compatible_item_data = jsonable_encoder(cursor)
+        return JSONResponse(content=json_compatible_item_data)
+    else:
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Unit id not found")
+        
 @app.delete("/delete_unit/{card_id}}", include_in_schema=False)  # DELETE - METHOD to delete a new unit
 async def delete_unit(card_id: int):
     result = collection.find_one_and_delete({"id": card_id})
