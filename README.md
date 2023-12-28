@@ -25,6 +25,7 @@ Every unit has the following attributes and data types:
 | type | string |
 | description | string |
 | traits | string array |
+| talents | string array |
 
 A unit is represented as: 
 
@@ -41,7 +42,12 @@ A unit is represented as:
       "Hook",
       "Melee",
       "AoE"
-  ]
+  ],
+  "talents": [
+        "Noxius Presence: Poison nearby enemies every 3 seconds.",
+        "Cannonball: On deploy and at 50 % health, stun nearby enemies for 5 seconds.",
+        "Fresh Meat: After hooking a target, deal double damage on the next attack."
+    ]
 }
 ```
 
@@ -138,22 +144,33 @@ Will return:
 
 ``` json
 {
-"id": 5,
-"cost": 4,
-"name": "Baron Rivendare",
-"faction": "Undead",
-"type": "Leader",
-"description": "Bane of the Scarlet Crusade.",
-"traits": [
-      "Tank",
-      "Armored",
-      "Elemental",
-      "Fast",
-      "Melee",
-      "One-Target"
+  "id": 5,
+  "cost": 4,
+  "name": "Baron Rivendare",
+  "faction": "Undead",
+  "type": "Leader",
+  "description": "Bane of the Scarlet Crusade.",
+  "traits": [
+        "Tank",
+        "Armored",
+        "Elemental",
+        "Fast",
+        "Melee",
+        "One-Target"
+    ],
+  "talents": [
+    "Death Pact: Periodically sacrifice a nearby Skeleton to be Healed.",
+    "Skeletal Frenzy: Nearby allied Skeletons gain Bloodlust.",
+    "Chill Of The Grave: Summon Skeletal Mages instead of Warriors."
   ]
 }
 ```
+
+## /units/talents/{unit_id}
+
+Retrieves a JSON string list with the 3 talents of the unit.
+
+` id options: 1 - 69 `
 
 # Future Updates and Feedback
 
