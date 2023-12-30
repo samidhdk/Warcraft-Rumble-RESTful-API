@@ -6,7 +6,7 @@ This is the unofficial Warcraft Rumble RESTful API. This project aims to deliver
 
 All objects are returned as a JSON.
 
-You can access the FastAPI Docs at: **SOON**. (Docker works fine locally, testing DNS name)
+You can access the FastAPI Docs at: **Soon™**. (Docker works fine locally, testing DNS name)
 
 
 --- 
