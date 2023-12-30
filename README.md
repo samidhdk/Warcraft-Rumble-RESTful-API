@@ -26,6 +26,7 @@ Every unit has the following attributes and data types:
 | description | string |
 | traits | string array |
 | talents | string array |
+| stats | Object |
 
 A unit is represented as: 
 
