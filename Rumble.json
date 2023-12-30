@@ -16,7 +16,14 @@
       "Noxius Presence: Poison nearby enemies every 3 seconds.",
       "Cannonball: On deploy and at 50 % health, stun nearby enemies for 5 seconds.",
       "Fresh Meat: After hooking a target, deal double damage on the next attack."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 170,
+      "Health": 3400,
+      "DPS": 68,
+      "Attack Speed": 2.5,
+      "Speed": "Slow"
+    }
   },
   "2": {
     "id": 2,
@@ -35,7 +42,14 @@
       "Snackrifice: Nearby Beast allies can consume a Chicken to heal themselves.",
       "Walking Crate: Deploy in a protective crate. When destroyed, Chickens emerge.",
       "Furious Fowl: Gain Fury."
-    ]
+    ],
+    "stats": {
+      "Damage": 40,
+      "Health": 25,
+      "DPS": 40,
+      "Attack Speed": 1,
+      "Speed": "Med-Fast"
+    }
   },
   "3": {
     "id": 3,
@@ -54,7 +68,11 @@
       "Amplification: Sequential taps increase radius by 1.",
       "Arcane Power: Spell sequence starts at rank 3 and ends at rank 4.",
       "Torrent: Gain a level after casting Rank 4."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 75,
+      "Radius": 5
+    }
   },
   "4": {
     "id": 4,
@@ -72,7 +90,11 @@
       "Soul Eruption: Possessed targets detonate on death, damaging nearby enemies.",
       "Unholy Frenzy: Possessed targets gain Bloodlust for 10 seconds.",
       "Will of the Necropolis: Fully Heal the possessed target."
-    ]
+    ],
+    "stats": {
+      "Health": 230,
+      "Speed": "Med-Fast"
+    }
   },
   "5": {
     "id": 5,
@@ -93,7 +115,14 @@
       "Death Pact: Periodically sacrifice a nearby Skeleton to be Healed.",
       "Skeletal Frenzy: Nearby allied Skeletons gain Bloodlust.",
       "Chill Of The Grave: Summon Skeletal Mages instead of Warriors."
-    ]
+    ],
+    "stats": {
+      "Damage": 190,
+      "Health": 1040,
+      "DPS": 112,
+      "Attack Speed": 1.7,
+      "Speed": "Fast"
+    }
   },
   "6": {
     "id": 6,
@@ -113,7 +142,16 @@
       "Flaming Pitch: Flaming pool reduces enemy's speed by 30%.",
       "Enchanted Vials: Increase the size of the flaming pool by 30%.",
       "Fiery Surplus: \"Accidentally\" leave vials on the ground, Burning nearby enemies that touch them."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 250,
+      "Health": 170,
+      "DPS": 100,
+      "Attack Speed": 2.5,
+      "Duration": 2.5,
+      "Range": 6.5,
+      "Speed": "Medium"
+    }
   },
   "7": {
     "id": 7,
@@ -132,7 +170,13 @@
       "Cold Snap: Freeze enemy troops in place.",
       "Brittle Ice: Enemies within take 30% additional damage from Physical sources.",
       "Icecrown: Summons an additional Blizzard at your Base."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 500,
+      "DPS": 100,
+      "Radius": 6,
+      "Duration": 5
+    }
   },
   "8": {
     "id": 8,
@@ -150,7 +194,15 @@
       "Drain Life: Gain Lifesteal.",
       "Bane: Playing a spell increases attack speed by 30% for 5 seconds.",
       "Dominance: Spells costing 4 or more grant an additional level."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 150,
+      "Health": 460,
+      "DPS": 107,
+      "Attack Speed": 1.4,
+      "Speed": "Slow",
+      "Range": 8.5
+    }
   },
   "9": {
     "id": 9,
@@ -168,8 +220,14 @@
     "talents": [
       "Reincarnation: After death, Resurrect at 50% Health once.",
       "Plainsrunning: Move 50% faster and gain the Fast trait.",
-      "Aftershock: When Stun expires, affected enemies are Dazed for 5 seconds.."
-    ]
+      "Aftershock: When Stun expires, affected enemies are Dazed for 5 seconds."
+    ],
+    "stats": {
+      "Area Damage": 160,
+      "Health": 1700,
+      "DPS": 64,
+      "Attack Speed": 2.5
+    }
   },
   "10": {
     "id": 10,
@@ -188,7 +246,11 @@
       "Brilliant Flash: On deploy, Stun enemies within for 1 second.",
       "Reverberation: Can be cast a second time.",
       "Storm's Reach: Dramatically increase jump distance between targets."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 150,
+      "Radius": 5
+    }
   },
   "11": {
     "id": 11,
@@ -208,8 +270,16 @@
     "talents": [
       "Spirit Passage: Minis played for 5 Gold gain a level and deploy in Stealth.",
       "Cavernous Mists: Deploy cost reduced by 1.",
-      "Nature's Grasp: Root two additional nearby targets, but deal half damage.."
-    ]
+      "Nature's Grasp: Root two additional nearby targets, but deal half damage."
+    ],
+    "stats": {
+      "Damage": 6,
+      "Health": 320,
+      "DPS": 24,
+      "Speed": "Medium",
+      "Range": 8.5,
+      "Percent DPS": 8
+    }
   },
   "12": {
     "id": 12,
@@ -226,7 +296,12 @@
       "Vampirism: Affected minis are Healed when dealing damage.",
       "Apocalypse: Affected Skeletons Resurrect at your base when they die.",
       "Seal Fate: Affected minis gain Bloodlust, but die when the effect ends."
-    ]
+    ],
+    "stats": {
+      "Radius": 5,
+      "Duration": 5,
+      "Lvl Advantage": "0.5 Sec"
+    }
   },
   "13": {
     "id": 13,
@@ -245,8 +320,15 @@
     "talents": [
       "Eternal Bond: Resurrection range is unlimited.",
       "Guard Dog: Deal 50% additional damage near friendly towers and meeting stones.",
-      "Fiery Rebirth: On Resurrection, damage nearby enemies.."
-    ]
+      "Fiery Rebirth: On Resurrection, damage nearby enemies."
+    ],
+    "stats": {
+      "Damage": 170,
+      "Health": 1420,
+      "DPS": 77,
+      "Attack Speed": 2.2,
+      "Speed": "Slow"
+    }
   },
   "14": {
     "id": 14,
@@ -266,7 +348,14 @@
       "Gold Mine: After Mining, drop a proximity mine. Damages nearby enemies when touched.",
       "Dark Iron Armaments: After Mining, gain Armored.",
       "Dwarven Ambition: Gain Fury."
-    ]
+    ],
+    "stats": {
+      "Damage": 60,
+      "Health": 540,
+      "DPS": 43,
+      "Attack Speed": 1.4,
+      "Speed": "Medium"
+    }
   },
   "15": {
     "id": 15,
@@ -283,7 +372,15 @@
       "Big Bad Voodoo: Regenerate 20% health every second.",
       "Headhunting: On kill, increase Attack and Movement speed by 10%. Stacks to 50%.",
       "Serpent Sting: Gain Poison."
-    ]
+    ],
+    "stats": {
+      "Damage": 190,
+      "Health": 220,
+      "DPS": 158,
+      "Attack Speed": 1.2,
+      "Speed": "Medium",
+      "Range": 9
+    }
   },
   "16": {
     "id": 16,
@@ -300,8 +397,12 @@
     "talents": [
       "Attunement: Allies caught in the effect gain Resist.",
       "Melting Point: Damaging Armored enemies removes their Armor.",
-      "Double Dragon: Cast a second wave in the opposite direction.."
-    ]
+      "Double Dragon: Cast a second wave in the opposite direction."
+    ],
+    "stats": {
+      "Area Damage": 400,
+      "Range": 25
+    }
   },
   "17": {
     "id": 17,
@@ -320,8 +421,15 @@
     "talents": [
       "Pick Lock: Earn an extra +2 Gold when opening chests.",
       "Deadly Poison: Gain Poison.",
-      "Last Resort: On death, Stun the target for 3 seconds.."
-    ]
+      "Last Resort: On death, Stun the target for 3 seconds."
+    ],
+    "stats": {
+      "Damage": 30,
+      "Health": 120,
+      "DPS": 17,
+      "Attack Speed": 1.8,
+      "Speed": "Med-Fast"
+    }
   },
   "18": {
     "id": 18,
@@ -338,8 +446,15 @@
     "talents": [
       "Mother Drake: Periodically summon a Whelp Egg.",
       "Engulfing Flames: Damaging enemies Burns them.",
-      "Roost: Perch on top of a nearby tower, staying there to defend it.."
-    ]
+      "Roost: Perch on top of a nearby tower, staying there to defend it."
+    ],
+    "stats": {
+      "Area Damage": 320,
+      "Health": 340,
+      "DPS": 133,
+      "Attack Speed": 2.4,
+      "Speed": "Medium"
+    }
   },
   "19": {
     "id": 19,
@@ -360,7 +475,14 @@
       "Obsidian Shard: On death, split into two smaller Earth Elementals.",
       "Ready to Rumble: Taunt on deploy.",
       "Shrapnel Blast: Destroying a tower deals damage to nearby enemies."
-    ]
+    ],
+    "stats": {
+      "Damage": 70,
+      "Health": 940,
+      "DPS": 35,
+      "Attack Speed": 2,
+      "Speed": "Medium"
+    }
   },
   "20": {
     "id": 20,
@@ -376,8 +498,13 @@
     "talents": [
       "Bloodthirsty: Bloodlust allies within spell area for 10 seconds.",
       "Overpower: Knock enemies away from the cast location.",
-      "Killing Spree: If an enemy is killed, the next Horde mini costs 1 less.."
-    ]
+      "Killing Spree: If an enemy is killed, the next Horde mini costs 1 less."
+    ],
+    "stats": {
+      "Radius": 5,
+      "Lvl Advantage": "5%",
+      "Percent Dmg": 50
+    }
   },
   "21": {
     "id": 21,
@@ -397,7 +524,14 @@
       "Immolation Aura: Periodically damage nearby enemies.",
       "Molten Core: On death, summon a pool of lava, damaging enemies within.",
       "Fan The Flames: Taking Elemental damage increases damage dealt by 10%. Stacks to 30%."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 120,
+      "Health": 1640,
+      "DPS": 67,
+      "Attack Speed": 1.8,
+      "Speed": "Medium"
+    }
   },
   "22": {
     "id": 22,
@@ -416,7 +550,15 @@
       "Moultin' Metal: Deal 50% more damage to Flying enemies.",
       "Blazing Speed: Fury builds up to 40% higher.",
       "Heightened Rage: Level up upon reaching full Fury."
-    ]
+    ],
+    "stats": {
+      "Damage": 140,
+      "Health": 350,
+      "DPS": 100,
+      "Attack Speed": 1.4,
+      "Speed": "Medium",
+      "Range": 9
+    }
   },
   "23": {
     "id": 23,
@@ -435,7 +577,15 @@
       "Backdraft: Successive attacks increase flame wave distance. Resets on movement.",
       "Engulf: Damaging enemies Burns thems.",
       "Heat Stroke: Damaging enemies Dazes them."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 220,
+      "Health": 460,
+      "DPS": 122,
+      "Attack Speed": 1.8,
+      "Speed": "Medium",
+      "Range": 7.5
+    }
   },
   "24": {
     "id": 24,
@@ -453,8 +603,15 @@
     "talents": [
       "Fortification: Gain 30% extra empty Health.",
       "Shield Bash: Periodically Stun the target for 1 second.",
-      "Last Stand: Armor increases to 75% damage reduction when no other Footmen are nearby.."
-    ]
+      "Last Stand: Armor increases to 75% damage reduction when no other Footmen are nearby."
+    ],
+    "stats": {
+      "Damage": 70,
+      "Health": 800,
+      "DPS": 44,
+      "Attack Speed": 1.6,
+      "Speed": "Slow"
+    }
   },
   "25": {
     "id": 25,
@@ -473,7 +630,16 @@
       "Earth Shield: Grant Armored to a nearby ally. Ability has 1 charge.",
       "Lightning Mastery: Ranged attack chains to 3 nearby targets.",
       "Earthwall Totem: Once per deploy, place a totem that partially heals a nearby tower or base."
-    ]
+    ],
+    "stats": {
+      "Damage": 60,
+      "Health": 480,
+      "DPS": 22,
+      "Attack Speed": 1.5,
+      "Speed": "Medium",
+      "Range": 8,
+      "Healing": 80
+    }
   },
   "26": {
     "id": 26,
@@ -493,8 +659,15 @@
     "talents": [
       "Wing Buffet: ncreases move speed by 33%.",
       "Aerial Superiority: Incoming damage from Flying minis is reduced by 50%.",
-      "Obsidian Statue: On death, summon a statue with Taunt. Lasts until destroyed.."
-    ]
+      "Obsidian Statue: On death, summon a statue with Taunt. Lasts until destroyed."
+    ],
+    "stats": {
+      "Damage": 250,
+      "Health": 1300,
+      "DPS": 147,
+      "Attack Speed": 1.7,
+      "Speed": "Slow"
+    }
   },
   "27": {
     "id": 27,
@@ -514,7 +687,14 @@
       "Chromatic Scales: Grants nearby allies the Resistant trait.",
       "Piercing Blows: Attacks pierce through enemies in a line.",
       "Lasting Legacy: On death, drop a banner. Nearby enemies take 50% additional Elemental damage. Lasts 10 seconds."
-    ]
+    ],
+    "stats": {
+      "Damage": 300,
+      "Health": 1600,
+      "DPS": 167,
+      "Attack Speed": 1.8,
+      "Speed": "Slow"
+    }
   },
   "28": {
     "id": 28,
@@ -533,8 +713,15 @@
     "talents": [
       "Bone Shield: Cannibalizing grants Armored for 10 seconds.",
       "Taste for Blood: Deal 50% additional damage to enemies who are below 50% health.",
-      "Ravenous: Cannibalizing grants Bloodlust for 10 seconds.."
-    ]
+      "Ravenous: Cannibalizing grants Bloodlust for 10 seconds."
+    ],
+    "stats": {
+      "Damage": 110,
+      "Health": 1040,
+      "DPS": 65,
+      "Attack Speed": 1.7,
+      "Speed": "Medium"
+    }
   },
   "29": {
     "id": 29,
@@ -552,7 +739,14 @@
       "Rabid: Reduce deploy cost by 1 and gain the Cycle trait.",
       "Pillage: Deal Siege damage.",
       "Thick Hide: Gain Armor."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 130,
+      "Health": 1240,
+      "DPS": 65,
+      "Attack Speed": 2,
+      "Speed": "Medium"
+    }
   },
   "30": {
     "id": 30,
@@ -570,8 +764,13 @@
     "talents": [
       "Rocket Powered Turbo Boots: Move twice as fast and gain the Fast trait.",
       "Extra BOOM: Deploy an additional +1 Goblin Sapper.",
-      "Crude Gunpowder: On death, Burn nearby enemies.."
-    ]
+      "Crude Gunpowder: On death, Burn nearby enemies."
+    ],
+    "stats": {
+      "Damage": 450,
+      "Health": 120,
+      "Speed": "Med-Fast"
+    }
   },
   "31": {
     "id": 31,
@@ -590,7 +789,14 @@
       "Bladestorm: Gain an AOE bladespin ability that damages all nearby enemies.",
       "Savage Strikes: Deal double damage to enemies who are below 50% health.",
       "Mirror Image: Summon two fragile mirror images when entering combat."
-    ]
+    ],
+    "stats": {
+      "Damage": 220,
+      "Health": 1360,
+      "DPS": 169,
+      "Attack Speed": 1.3,
+      "Speed": "Medium"
+    }
   },
   "32": {
     "id": 32,
@@ -607,8 +813,16 @@
     "talents": [
       "Mighty Throw: Gain +3 Range.",
       "Odyn's Fury: Gain Fury.",
-      "Air Drop: Periodically drop a potion, leveling up the first ally to touch it.."
-    ]
+      "Air Drop: Periodically drop a potion, leveling up the first ally to touch it."
+    ],
+    "stats": {
+      "Damage": 160,
+      "Health": 170,
+      "DPS": 145,
+      "Attack Speed": 1.1,
+      "Speed": "Med-Fast",
+      "Range": 5
+    }
   },
   "33": {
     "id": 33,
@@ -625,8 +839,15 @@
     "talents": [
       "Infectious Swipes: Gain Poison.",
       "Trinket Collectors: Gain the Miner trait. Cost increased by 1.",
-      "Talon Dive: Deal double damage on the 1st attack.."
-    ]
+      "Talon Dive: Deal double damage on the 1st attack."
+    ],
+    "stats": {
+      "Damage": 140,
+      "Health": 150,
+      "DPS": 117,
+      "Attack Speed": 1.2,
+      "Speed": "Fast"
+    }
   },
   "34": {
     "id": 34,
@@ -644,8 +865,15 @@
     "talents": [
       "Trojan Chickens: On death, spawn 4 Angry Chickens.",
       "Unstable Core: On death, Stun nearby enemies for 3 seconds.",
-      "Bountiful Harvest: On death, apply a Heal over time effect to nearby allies.."
-    ]
+      "Bountiful Harvest: On death, apply a Heal over time effect to nearby allies."
+    ],
+    "stats": {
+      "Damage": 140,
+      "Health": 1480,
+      "DPS": 70,
+      "Attack Speed": 2,
+      "Speed": "Slow"
+    }
   },
   "35": {
     "id": 35,
@@ -663,7 +891,14 @@
       "Ham Hock: Hogger also gains +10% max health each time he is played.",
       "Spoiled Meat: Gain Poison.",
       "Fatal Frenzy: On death, Bloodlust nearby Beasts."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 190,
+      "Health": 1120,
+      "DPS": 79,
+      "Attack Speed": 2.4,
+      "Speed": "Med-Fast"
+    }
   },
   "36": {
     "id": 36,
@@ -681,7 +916,12 @@
       "Inner Fire: Affected allies gain Armored and Resist for 5 seconds.",
       "Amplify Magic: Effects are doubled on all Elemental minis.",
       "Renew: Also adds a heal over time to allies."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 150,
+      "Radius": 5,
+      "Healing": 280
+    }
   },
   "37": {
     "id": 37,
@@ -699,8 +939,16 @@
     "talents": [
       "Elven Might: Deal 50% additional damage to the initial target.",
       "Shadowmeld: Gain Stealth and Ambush.",
-      "Darnassian Steel: Glaive bounces an additional 3 times.."
-    ]
+      "Darnassian Steel: Glaive bounces an additional 3 times."
+    ],
+    "stats": {
+      "Area Damage": 150,
+      "Health": 400,
+      "DPS": 107,
+      "Attack Speed": 1.4,
+      "Speed": "Fast",
+      "Range": 7.5
+    }
   },
   "38": {
     "id": 38,
@@ -718,8 +966,16 @@
     "talents": [
       "Clearcasting: Spells cost 1 less (but no less than 1) if played immediately after Jaina.",
       "Flurry: Frostbolts burst on impact, Frosting enemies near the target.",
-      "Blink: Periodically teleport away from attackers.."
-    ]
+      "Blink: Periodically teleport away from attackers."
+    ],
+    "stats": {
+      "Damage": 190,
+      "Health": 250,
+      "DPS": 119,
+      "Attack Speed": 1.6,
+      "Speed": "Medium",
+      "Range": 7
+    }
   },
   "39": {
     "id": 39,
@@ -737,7 +993,11 @@
       "Chain Reaction: Splash damage inflicts Living Bomb.",
       "Blast Radius: Also burn enemies within 10 units.",
       "Burden Of Fate: Affected enemies are Dazed."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 200,
+      "Radius": 6
+    }
   },
   "40": {
     "id": 40,
@@ -756,7 +1016,15 @@
       "Remorseless: Deal double damage for 2 seconds after killing an enemy.",
       "Enveloping Shadows: Cast Smoke Bomb on deploy, Stealthing nearby allies.",
       "Shadowstep: eriodically teleport to a ranged attacker when hit."
-    ]
+    ],
+    "stats": {
+      "Damage": 160,
+      "Health": 620,
+      "DPS": 100,
+      "Attack Speed": 1.6,
+      "Speed": "Med-Fast",
+      "Fan Damage": 300
+    }
   },
   "41": {
     "id": 41,
@@ -776,7 +1044,15 @@
       "Filet Trebuchet: Increase Bombard range by +2.",
       "Meat And Bones: Every other attack summons a Skeleton instead of dealing damage.",
       "Greased Gears: Gain Fury."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 210,
+      "Health": 320,
+      "DPS": 70,
+      "Attack Speed": 3,
+      "Speed": "Medium",
+      "Range": 11
+    }
   },
   "42": {
     "id": 42,
@@ -796,7 +1072,14 @@
       "Bolster: Heal when destroying a tower.",
       "Threatening Presence: Gain Taunt.",
       "Blood Of The Mountain: On death, explode, damaging nearby enemies."
-    ]
+    ],
+    "stats": {
+      "Damage": 180,
+      "Health": 2900,
+      "DPS": 67,
+      "Attack Speed": 2.7,
+      "Speed": "Medium"
+    }
   },
   "43": {
     "id": 43,
@@ -815,8 +1098,18 @@
     "talents": [
       "Mend Pets: Heal up to 3 additional nearby Beasts when healing the Bear.",
       "Intimidation: Bear gains Taunt.",
-      "Frenzied Spirit: When the Bear or Mountaineer die, the other gains Bloodlust.."
-    ]
+      "Frenzied Spirit: When the Bear or Mountaineer die, the other gains Bloodlust."
+    ],
+    "stats": {
+      "Speed": "Medium",
+      "Dwarf Dmg": 170,
+      "Bear Dmg": 110,
+      "Dwarf DPS": 121,
+      "Bear DPS": 61,
+      "Dwarf Health": 280,
+      "Bear Health": 1400,
+      "Dwarf Range": 8.5
+    }
   },
   "44": {
     "id": 44,
@@ -835,7 +1128,15 @@
       "Safety Bubble: Deploy with a bubble that blocks the first attack.",
       "Morelocs: Deploy with +1 additional Murloc.",
       "Careful Aim: Gain +2 range."
-    ]
+    ],
+    "stats": {
+      "Damage": 90,
+      "Health": 80,
+      "DPS": 56,
+      "Attack Speed": 1.6,
+      "Speed": "Fast",
+      "Range": 6.5
+    }
   },
   "45": {
     "id": 45,
@@ -854,7 +1155,15 @@
       "Jeweled Skulls: Summon Skeletal Mages instead of Skeletons.",
       "Cult of the Damned: On kill, summon a Skeleton.",
       "Breath of the Dying: On death, summon 5 Skeletons."
-    ]
+    ],
+    "stats": {
+      "Damage": 190,
+      "Health": 400,
+      "DPS": 146,
+      "Attack Speed": 1.3,
+      "Speed": "Medium",
+      "Range": 7.5
+    }
   },
   "46": {
     "id": 46,
@@ -873,7 +1182,15 @@
       "Avarice: Gain Bloodlust when Bloodlusting an ally.",
       "Frostfire Bolt: Gain Frost.",
       "Ignite: Burn enemy targets."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 160,
+      "Health": 650,
+      "DPS": 114,
+      "Attack Speed": 1.4,
+      "Speed": "Medium",
+      "Range": 8
+    }
   },
   "47": {
     "id": 47,
@@ -892,7 +1209,15 @@
       "Marathon Of The Murlocs: March of the Murlocs lasts an additional 5 seconds longer after deploying.",
       "Electric Eels: Attacks briefly Stun enemies.",
       "Tip of the Spear: Tidehunters spawn at Old Murk Eye's location instead."
-    ]
+    ],
+    "stats": {
+      "Damage": 150,
+      "Health": 160,
+      "DPS": 94,
+      "Attack Speed": 1.6,
+      "Speed": "Fast",
+      "Range": 6.5
+    }
   },
   "48": {
     "id": 48,
@@ -912,7 +1237,16 @@
       "Splashing Pumpkins: Increase Range by +1 and double the Splash area.",
       "Parting Gift: On death, summon a pumpkin. When touched, it Poisons nearby enemies.",
       "Virulence: On kill, Poison enemies near the target."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 260,
+      "Health": 200,
+      "DPS": 113,
+      "Attack Speed": 2.3,
+      "Speed": "Medium",
+      "Duration": 5,
+      "Range": 9
+    }
   },
   "49": {
     "id": 49,
@@ -929,7 +1263,12 @@
       "Golden Fleece: One sheep becomes golden. Killing it grants +1 gold.",
       "Exploding Sheep: Killing a sheep damages nearby enemies.",
       "Stable Transfiguration: Lasts twice as long, but sheep regenerate health very quickly."
-    ]
+    ],
+    "stats": {
+      "Radius": 5,
+      "Duration": 6,
+      "Lvl Advantage": "0.5 Sec"
+    }
   },
   "50": {
     "id": 50,
@@ -948,7 +1287,14 @@
       "On The Prowl: Gain Stealth, and stun the target when attacking from Stealth.",
       "Pack Leader: Grants nearby Beast allies 30% additional damage.",
       "Predatory Instincts: Deal double damage to enemies who are at more than 75% health."
-    ]
+    ],
+    "stats": {
+      "Damage": 130,
+      "Health": 840,
+      "DPS": 144,
+      "Attack Speed": 0.9,
+      "Speed": "Fast"
+    }
   },
   "51": {
     "id": 51,
@@ -966,7 +1312,14 @@
       "Conflagrate: Splash area is doubled.",
       "Pyroblast: Deal triple damage on the first attack.",
       "Blaze of Glory: Damage and Burn nearby enemies on death."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 170,
+      "Health": 220,
+      "DPS": 113,
+      "Attack Speed": 1.5,
+      "Range": 8
+    }
   },
   "52": {
     "id": 52,
@@ -987,7 +1340,14 @@
       "Tunnel Vision: Deploy much more quickly.",
       "Bristleback: Deal a small amount of damage to Melee attackers.",
       "Bramble Burst: Inflict Poison on nearby enemies when emerging."
-    ]
+    ],
+    "stats": {
+      "Damage": 70,
+      "Health": 780,
+      "DPS": 39,
+      "Attack Speed": 1.8,
+      "Speed": "Medium"
+    }
   },
   "53": {
     "id": 53,
@@ -1006,7 +1366,14 @@
       "Strength In Numbers: Deal 10% more damage for each other Raptor nearby.",
       "Fast Food: On kill, heal a small amount of damage.",
       "Motivation: Gain Bloodlust while a chest or gold vein is nearby."
-    ]
+    ],
+    "stats": {
+      "Damage": 90,
+      "Health": 350,
+      "DPS": 69,
+      "Attack Speed": 1.3,
+      "Speed": "Fast"
+    }
   },
   "54": {
     "id": 54,
@@ -1025,7 +1392,17 @@
       "Scale and Steel: Gain Resistant while flying and Armored while dismounted.",
       "Flaming Soul: Cast Living Bomb upon dismounting, damaging nearby enemies.",
       "Legionnaire: Dismount when first taking damage. The Drake continues fighting."
-    ]
+    ],
+    "stats": {
+      "Rend Dmg": 140,
+      "Gyth Dmg": 320,
+      "Rend DPS": 82,
+      "Gyth DPS": 133,
+      "Rend Health": 1200,
+      "Gyth Health": 340,
+      "Rend Range": 4,
+      "Gyth Range": 4
+    }
   },
   "55": {
     "id": 55,
@@ -1044,7 +1421,16 @@
       "Gnomish Cloaking Device: Deploy from the explosion with Stealth and Ambush.",
       "Comin' In Hot!: Deploy twice as fast and Burn nearby enemies.",
       "Gnomish Muttonizer: Polymorph the first blaster target."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 170,
+      "Health": 210,
+      "DPS": 71,
+      "Attack Speed": 2.4,
+      "Range": 8.5,
+      "Crash Damage": 250,
+      "Speed": "Medium"
+    }
   },
   "56": {
     "id": 56,
@@ -1065,7 +1451,15 @@
       "5-Man: Summons a Skeleton Tank, Rogue, Priest, and 2 Mages.",
       "Corpse Run: Gain +1 level for each deploy after the first. (Maximum +3 levels)",
       "Ritual of Rime: Summon 5 Skeleton Mages who guard the deploy location."
-    ]
+    ],
+    "stats": {
+      "Damage": 46,
+      "Health": 200,
+      "DPS": 33,
+      "Attack Speed": 1.4,
+      "Speed": "Medium",
+      "Range": 7
+    }
   },
   "57": {
     "id": 57,
@@ -1084,7 +1478,14 @@
       "Questing Buddies: One Skeleton gains Armor, one gains Resist, and one gains Stealth.",
       "Exhume: If deployed near a Tower or Meeting Stone, deploy +2 additional Skeletons.",
       "Cackle: Gain Taunt."
-    ]
+    ],
+    "stats": {
+      "Damage": 46,
+      "Health": 200,
+      "DPS": 33,
+      "Attack Speed": 1.4,
+      "Speed": "Medium"
+    }
   },
   "58": {
     "id": 58,
@@ -1102,7 +1503,12 @@
       "Through The Shadows: Affected minis move 50% faster until unstealthed.",
       "Band Of Thieves: Grant +2 levels to Cycle minis within.",
       "Strangers in the Night: Effects apply to enemies as well."
-    ]
+    ],
+    "stats": {
+      "Radius": 5,
+      "Duration": 5,
+      "Lvl Advantage": "0.5 Sec"
+    }
   },
   "59": {
     "id": 59,
@@ -1122,7 +1528,14 @@
       "Lead With Greed: Gain an additional +2 Gold when Sneed triggers Sneed Before Greed.",
       "Mine Is Money, Friend!: Gain the Miner trait.",
       "Land Grab: Gain a level whenever Sneed Before Greed."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 360,
+      "Health": 1040,
+      "DPS": 120,
+      "Attack Speed": 3,
+      "Speed": "Medium"
+    }
   },
   "60": {
     "id": 60,
@@ -1142,7 +1555,15 @@
       "Frostbite: Gain Frost.",
       "Bloated Carapace: Explode on death, Poisoning nearby enemies.",
       "Envenom: Deal twice as much Poison damage."
-    ]
+    ],
+    "stats": {
+      "Damage": 40,
+      "Health": 380,
+      "DPS": 50,
+      "Attack Speed": 0.8,
+      "Speed": "Med-Fast",
+      "Duration": 5
+    }
   },
   "61": {
     "id": 61,
@@ -1161,7 +1582,14 @@
       "Momentum: After connecting a charge, immediately charge a second time if possible.",
       "Pummel: After connecting a charge, Stun the target for 3 seconds.",
       "Provoke: After connecting a charge, Taunt nearby enemies."
-    ]
+    ],
+    "stats": {
+      "Damage": 150,
+      "Health": 1720,
+      "DPS": 83,
+      "Attack Speed": 1.8,
+      "Speed": "Medium"
+    }
   },
   "62": {
     "id": 62,
@@ -1179,7 +1607,15 @@
       "Black Arrow: Pierce through enemies in a line, dealing Elemental damage.",
       "Banshee's Wail: Scream on Death, Stunning nearby enemies for 3 seconds.",
       "Forsaken Fury: Nearby Horde and Undead Minis gain Fury."
-    ]
+    ],
+    "stats": {
+      "Damage": 190,
+      "Health": 430,
+      "DPS": 146,
+      "Attack Speed": 1.3,
+      "Range": 8.5,
+      "Speed": "Medium"
+    }
   },
   "63": {
     "id": 63,
@@ -1199,7 +1635,15 @@
       "Divine Shield: Gain a magical shield at 30% health, absorbing all damage for 5 seconds.",
       "By The Light: Heal the primary target for twice as much.",
       "Consecrate: Regularly consecrate the ground, damaging enemies within."
-    ]
+    ],
+    "stats": {
+      "Damage": 120,
+      "Health": 700,
+      "DPS": 67,
+      "Attack Speed": 1.8,
+      "Speed": "Medium",
+      "Healing": 160
+    }
   },
   "64": {
     "id": 64,
@@ -1218,7 +1662,14 @@
       "Feeding Frenzy: The flock gains Bloodlust for 5 seconds when spawning a new Vulture.",
       "Migration: All additional Vultures spawn at your base.",
       "Tendon Rip: Attacks Daze enemies for 3 seconds."
-    ]
+    ],
+    "stats": {
+      "Damage": 70,
+      "Health": 25,
+      "DPS": 44,
+      "Attack Speed": 1.6,
+      "Speed": "Med-Fast"
+    }
   },
   "65": {
     "id": 65,
@@ -1237,7 +1688,14 @@
       "Command: Nearby Beast allies deal 30% additional damage.",
       "Blood Pact: When a Grunt dies, the other gain Bloodlust.",
       "Guard Duty: Remain at deploy location until entering combat."
-    ]
+    ],
+    "stats": {
+      "Damage": 80,
+      "Health": 1720,
+      "DPS": 50,
+      "Attack Speed": 1.6,
+      "Speed": "Medium"
+    }
   },
   "66": {
     "id": 66,
@@ -1257,7 +1715,14 @@
       "Razing Focus: Become a Siege unit, ignoring enemy Minis.",
       "Sunder Armor: Damaging an Armored enemy removes their Armor.",
       "Saboteur: Damaging a tower reduces its damage dealt by 50% for 3 seconds."
-    ]
+    ],
+    "stats": {
+      "Damage": 180,
+      "Health": 1340,
+      "DPS": 106,
+      "Attack Speed": 1.7,
+      "Speed": "Fast"
+    }
   },
   "67": {
     "id": 67,
@@ -1277,7 +1742,15 @@
       "Flame Burst: Damage nearby enemies when hatching.",
       "Rookery: When one egg hatches, the others hatch immediately.",
       "Chromatic Plating: Eggs gain Taunt."
-    ]
+    ],
+    "stats": {
+      "Area Damage": 110,
+      "Health": 130,
+      "DPS": 61,
+      "Attack Speed": 1.8,
+      "Speed": "Med-Fast",
+      "Range": 3.5
+    }
   },
   "68": {
     "id": 68,
@@ -1297,7 +1770,14 @@
       "Premeditation: Increase Ambush damage by 50%.",
       "Lone Wolf: On deploy, grant +1 gold if no allies are nearby.",
       "Frenzy: On kill, gain Bloodlust for 10 seconds."
-    ]
+    ],
+    "stats": {
+      "Damage": 130,
+      "Health": 340,
+      "DPS": 163,
+      "Attack Speed": 0.8,
+      "Speed": "Med-Fast"
+    }
   },
   "69": {
     "id": 69,
@@ -1316,6 +1796,15 @@
       "Leviathan: Gain 10% additional Health per deploy.",
       "Frost Shock: Lightning Ball applies Frost on hit.",
       "Fiery Rebirth: Poison Spit inflicts twice as much Poison."
-    ]
+    ],
+    "stats": {
+      "Health": 450,
+      "Speed": "Med-Fast",
+      "Range": 7,
+      "Right Damage": 50,
+      "Left Damage": 150,
+      "Right DPS": 33,
+      "Left DPS": 50
+    }
   }
 }
