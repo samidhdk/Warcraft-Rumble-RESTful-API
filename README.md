@@ -193,46 +193,46 @@ Retrieves a JSON Object with the stats of the unit.
 
 ` id options: 1 - 69 `
 
-List of stats and it type:
+Table of stats and it type:
 
-| Data          |   Type | Exclusive of:      |
-|---------------|-------:|--------------------|
-| Area Damage   | int    |                    |
-| Attack Speed  | float  |                    |
-| Bear DPS      | int    | Mountaineer        |
-| Bear Dmg      | int    | Mountaineer        |
-| Bear Health   | int    | Mountaineer        |
-| Crash Damage  | int    | S.A.F.E Pilot      |
-| DPS           | int    |                    |
-| Damage        | int    |                    |
-| Duration      | int    |                    |
-| Dwarf DPS     | int    | Mountaineer        |
-| Dwarf Dmg     | int    | Mountaineer        |
-| Dwarf Health  | int    | Mountaineer        |
-| Dwarf Range   | float  | Mountaineer        |
-| Fan Damage    | int    | Maiev Shadowsong   |
-| Gyth DPS      | int    | Rend Blackhand     |
-| Gyth Dmg      | int    | Rend Blackhand     |
-| Gyth Health   | int    | Rend Blackhand     |
-| Gyth Range    | int    | Rend Blackhand     |
-| Healing       | int    |                    |
-| Health        | int    |                    |
-| Left DPS      | int    | Chimaera           |
-| Left Damage   | int    | Chimaera           |
-| Lvl Advantage | string |                    |
-| Percent DPS   | int    | Charlga Razorflank |
-| Percent Dmg   | int    | Execute            |
-| Radius        | int    |                    |
-| Range         | float  |                    |
-| Rend DPS      | int    | Rend Blackhand     |
-| Rend Dmg      | int    | Rend Blackhand     |
-| Rend Health   | int    | Rend Blackhand     |
-| Rend Range    | int    | Rend Blackhand     |
-| Right DPS     | int    | Chimaera           |
-| Right Damage  | int    | Chimaera           |
-| Speed         | string |                    |
+| Stat            |   Type | Exclusive of:      |
+|-----------------|-------:|--------------------|
+| Area Damage     | int    |                    |
+| Attack Speed(*) | float  |                    |
+| Bear DPS        | int    | Mountaineer        |
+| Bear Dmg        | int    | Mountaineer        |
+| Bear Health     | int    | Mountaineer        |
+| Crash Damage    | int    | S.A.F.E Pilot      |
+| DPS             | int    |                    |
+| Damage          | int    |                    |
+| Duration        | int    |                    |
+| Dwarf DPS       | int    | Mountaineer        |
+| Dwarf Dmg       | int    | Mountaineer        |
+| Dwarf Health    | int    | Mountaineer        |
+| Dwarf Range     | float  | Mountaineer        |
+| Fan Damage      | int    | Maiev Shadowsong   |
+| Gyth DPS        | int    | Rend Blackhand     |
+| Gyth Dmg        | int    | Rend Blackhand     |
+| Gyth Health     | int    | Rend Blackhand     |
+| Gyth Range      | int    | Rend Blackhand     |
+| Healing         | int    |                    |
+| Health          | int    |                    |
+| Left DPS        | int    | Chimaera           |
+| Left Damage     | int    | Chimaera           |
+| Lvl Advantage   | string |                    |
+| Percent DPS     | int    | Charlga Razorflank |
+| Percent Dmg     | int    | Execute            |
+| Radius          | int    |                    |
+| Range(*)        | float  |                    |
+| Rend DPS        | int    | Rend Blackhand     |
+| Rend Dmg        | int    | Rend Blackhand     |
+| Rend Health     | int    | Rend Blackhand     |
+| Rend Range      | int    | Rend Blackhand     |
+| Right DPS       | int    | Chimaera           |
+| Right Damage    | int    | Chimaera           |
+| Speed           | string |                    |
 
-
+(\*) Both **Attack Speed** and **Range** can have an integer value, depending on the unit. Since there is at least one unit with a float value, the type is considered as such.
 
 
 # Future Updates and Feedback
