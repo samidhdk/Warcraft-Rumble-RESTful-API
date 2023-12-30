@@ -32,23 +32,30 @@ A unit is represented as:
 
 ```json
 {
-  "id": 1,
-  "cost": 6,
-  "name": "Abomination",
-  "faction": "Undead",
-  "type": "Troop",
-  "description": "This Tanky mass of flesh and steel will Hook ranged enemies, drawing them into his Cleave attack.",
-  "trait": [
-      "Tank",
-      "Hook",
-      "Melee",
-      "AoE"
-  ],
-  "talents": [
+    "id": 1,
+    "cost": 6,
+    "name": "Abomination",
+    "faction": "Undead",
+    "type": "Troop",
+    "description": "This Tanky mass of flesh and steel will Hook ranged enemies, drawing them into his Cleave attack.",
+    "traits": [
+        "Tank",
+        "Hook",
+        "Melee",
+        "AoE"
+    ],
+    "talents": [
         "Noxius Presence: Poison nearby enemies every 3 seconds.",
         "Cannonball: On deploy and at 50 % health, stun nearby enemies for 5 seconds.",
         "Fresh Meat: After hooking a target, deal double damage on the next attack."
-    ]
+    ],
+    "stats": {
+        "Area Damage": 170,
+        "Health": 3400,
+        "DPS": 68,
+        "Attack Speed": 2.5,
+        "Speed": "Slow"
+    }
 }
 ```
 
@@ -145,13 +152,13 @@ Will return:
 
 ``` json
 {
-  "id": 5,
-  "cost": 4,
-  "name": "Baron Rivendare",
-  "faction": "Undead",
-  "type": "Leader",
-  "description": "Bane of the Scarlet Crusade.",
-  "traits": [
+    "id": 5,
+    "cost": 4,
+    "name": "Baron Rivendare",
+    "faction": "Undead",
+    "type": "Leader",
+    "description": "Bane of the Scarlet Crusade.",
+    "traits": [
         "Tank",
         "Armored",
         "Elemental",
@@ -159,11 +166,18 @@ Will return:
         "Melee",
         "One-Target"
     ],
-  "talents": [
-    "Death Pact: Periodically sacrifice a nearby Skeleton to be Healed.",
-    "Skeletal Frenzy: Nearby allied Skeletons gain Bloodlust.",
-    "Chill Of The Grave: Summon Skeletal Mages instead of Warriors."
-  ]
+    "talents": [
+        "Death Pact: Periodically sacrifice a nearby Skeleton to be Healed.",
+        "Skeletal Frenzy: Nearby allied Skeletons gain Bloodlust.",
+        "Chill Of The Grave: Summon Skeletal Mages instead of Warriors."
+    ],
+    "stats": {
+        "Damage": 190,
+        "Health": 1040,
+        "DPS": 112,
+        "Attack Speed": 1.7,
+        "Speed": "Fast"
+    }
 }
 ```
 
@@ -172,6 +186,14 @@ Will return:
 Retrieves a JSON string list with the 3 talents of the unit.
 
 ` id options: 1 - 69 `
+
+## /units/stats/{unit_id}
+
+Retrieves a JSON Object with the stats of the unit.
+
+` id options: 1 - 69 `
+
+
 
 # Future Updates and Feedback
 
