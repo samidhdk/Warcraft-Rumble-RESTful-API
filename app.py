@@ -24,6 +24,8 @@ class Card(BaseModel):
     type: str
     description: str
     traits: list[str]
+    talents: list[str]
+    stats: dict 
 
 @app.get("/", include_in_schema=False)
 async def redirect():
