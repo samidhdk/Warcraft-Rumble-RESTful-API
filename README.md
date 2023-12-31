@@ -195,7 +195,7 @@ Retrieves a JSON Object with the stats of the unit.
 
 Table of stats and it type:
 
-| Stat            |   Type | Exclusive of:      |
+| Stat            |   Type | Exclusive of       |
 |-----------------|-------:|--------------------|
 | Area Damage     | int    |                    |
 | Attack Speed(*) | float  |                    |
