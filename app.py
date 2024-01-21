@@ -1,6 +1,5 @@
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
-from Rumble import Rumble
 from fastapi import FastAPI, Path, Query, HTTPException, status
 from fastapi.encoders import jsonable_encoder
 from fastapi.responses import RedirectResponse, JSONResponse
@@ -11,10 +10,9 @@ uri = "mongodb+srv://..."
 app = FastAPI()
 client = MongoClient(uri, server_api=ServerApi('1'))
 
-rumble = Rumble()
+
 db = client.test
 collection = db.rumble_collection
-
 
 class Card(BaseModel):
     id: int
@@ -124,7 +122,7 @@ async def get_units_talents(unit_id: int = Path(..., description="ID of the unit
     else:
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="Unit id not found")
 
-@app.post("/add_unit/{new_card_id}}", include_in_schema=False)  # POST - METHOD to add a new unit
+@app.post("/add_unit/{new_card_id}", include_in_schema=False)  # POST - METHOD to add a new unit
 async def add_unit(new_card_id: int, card: Card):
     cursor = collection.find({'id': new_card_id})
     if cursor:
@@ -141,7 +139,7 @@ async def add_unit(new_card_id: int, card: Card):
                 raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
                                     detail=f"Inserction of Card with id: {new_card_id} failed.")
         
-@app.delete("/delete_unit/{card_id}}", include_in_schema=False)  # DELETE - METHOD to delete a new unit
+@app.delete("/delete_unit/{card_id}", include_in_schema=False)  # DELETE - METHOD to delete a new unit
 async def delete_unit(card_id: int):
     result = collection.find_one_and_delete({"id": card_id})
     if result:
