@@ -119,6 +119,7 @@ Retrieves a JSON file containing information about all units with the specified 
 - Cycle
 - Dismounts
 - Elemental
+- Fiery Weapon Enchant
 - Fury
 - Hatching
 - Haunt
