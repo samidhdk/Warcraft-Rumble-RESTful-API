@@ -1806,5 +1806,32 @@
       "Right DPS": 33,
       "Left DPS": 50
     }
+  },
+    "70": {
+    "id": 70,
+    "cost": 4,
+    "name": "Emperor Thaurissan",
+    "faction": "Blackrock",
+    "type": "Leader",
+    "description": "If Ragnaros was your boss, you'd be cranky too.",
+    "traits": [
+      "Ranged",
+      "AoE",
+      "Elemental",
+      "Fiery Weapon Enchant"
+    ],
+    "talents": [
+      "Moira's Wit: Nearby Burning enemies Heal Thaurissan.",
+      "Hubris: After playing Thaurissan, your next non-Elemental Mini deploys with +2 levels.",
+      "Incinerate: Lava Spike's Burn is permanent."
+    ],
+    "stats": {
+      "Health": 1330,
+      "Speed": "Medium",
+      "Range": 7,
+      "Damage": 85,
+      "DPS": 33,
+      "Attack Speed": 2.6
+    }
   }
 }
