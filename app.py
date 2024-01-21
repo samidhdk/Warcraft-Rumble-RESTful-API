@@ -10,7 +10,6 @@ uri = "mongodb+srv://..."
 app = FastAPI()
 client = MongoClient(uri, server_api=ServerApi('1'))
 
-
 db = client.test
 collection = db.rumble_collection
 
@@ -124,25 +123,23 @@ async def get_units_talents(unit_id: int = Path(..., description="ID of the unit
 
 @app.post("/add_unit/{new_card_id}", include_in_schema=False)  # POST - METHOD to add a new unit
 async def add_unit(new_card_id: int, card: Card):
-    cursor = collection.find({'id': new_card_id})
-    if cursor:
-        json_results = json_util.dumps(cursor, default=json_encoder)
-        if json_results != "[]":
+    cursor = collection.find_one({'id': new_card_id}, {'_id': 0})
+    if cursor is not None:
             raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
                                 detail=f"Couldn't insert Card with id: {new_card_id}. Maybe it already exists?")
+    else:
+        card = dict(card)
+        result = collection.insert_one(card)
+        if result.inserted_id is not None:
+            return {'message': f'New card wtih id {new_card_id} added!'}
         else:
-            card = dict(card)
-            result = collection.insert_one(card)
-            if result.inserted_id == 1:
-                return {'message': f'New card wtih id {new_card_id} added!'}, card
-            else:
-                raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-                                    detail=f"Inserction of Card with id: {new_card_id} failed.")
+            raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+                                detail=f"Inserction of Card with id: {new_card_id} failed.")
         
 @app.delete("/delete_unit/{card_id}", include_in_schema=False)  # DELETE - METHOD to delete a new unit
 async def delete_unit(card_id: int):
     result = collection.find_one_and_delete({"id": card_id})
-    if result:
+    if result is not None:
         return {'message': f'Card with id {card_id} successfully deleted.'}
     else:
         raise HTTPException(status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
