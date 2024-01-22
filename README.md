@@ -107,6 +107,7 @@ Retrieves a JSON file containing information about all units with the specified 
 
 **Unit trait options:**
 - Ambush
+- AoE
 - Armored
 - Attack Root
 - Attack Stun
@@ -119,22 +120,32 @@ Retrieves a JSON file containing information about all units with the specified 
 - Cycle
 - Dismounts
 - Elemental
+- Fast
 - Fiery Weapon Enchant
+- Flying
+- Frost
 - Fury
 - Hatching
 - Haunt
+- Healer
 - Heal Squadmate
 - Healer
 - Hook
 - Longshot
+- Melee
 - Miner
 - Percent Damage
 - Poisonous
 - Possession
+- Ranged
 - Rebirth
 - Resistant
 - Revive
 - Siege Damage
+- Siege Specialist
+- Stealth
+- One-Target
+- Squad
 - Stealth
 - Summoner
 - Tank
