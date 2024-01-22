@@ -105,6 +105,8 @@ Retrieves a JSON file containing information about all units with the specified 
 
 Retrieves a JSON file containing information about all units with the specified trait.
 
+(Units only have their base traits. What this means is: some units can obtain new traits if they are upgraded, for example, Cairne Bloodhoof gets the "Rebirth" trait when he has the "Reincarnation" talent. So from 4 traits, goes to 5. The database contains the **non-upgraded** units)
+
 **Unit trait options:**
 - Ambush
 - AoE
