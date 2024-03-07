@@ -73,7 +73,7 @@ Retrieves a JSON file containing information about all available units.
 
 Retrieves a JSON file containing information about the specified unit.
 
-` id options: 1 - 70 `
+` id options: 1 - 71 `
 
 ## /units/faction/{unit_faction}
 
@@ -205,7 +205,7 @@ Retrieves a JSON string list with the 3 talents of the unit.
 
 Retrieves a JSON Object with the stats of the unit.
 
-` id options: 1 - 70 `
+` id options: 1 - 71 `
 
 Table of stats and it type:
 
