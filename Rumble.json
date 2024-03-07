@@ -1833,5 +1833,32 @@
       "DPS": 33,
       "Attack Speed": 2.6
     }
+  },
+  "71": {
+    "id": 71,
+    "cost": 2,
+    "name": "Witch Doctor",
+    "faction": "Horde",
+    "type": "Troop",
+    "description": "A Cycle support caster. Channels an explosive Curse on an enemy, helping allies take out multiple foes!",
+    "traits": [
+      "Ranged",
+      "AoE",
+      "Elemental",
+      "Cycle"
+    ],
+    "talents": [
+      "Alchemist: Periodically drop a potion, granting Bloodlust to the first ally who touches it.",
+      "Amplify Curse: Enemies killed by the Curse explosion also explode.",
+      "Spirit Ward: On kill, grant a shield to nearby allies, absorbing the next hit against them."
+    ],
+    "stats": {
+      "Health": 300,
+      "Damage": 18,
+      "Speed": "Medium",
+      "Range": 8,
+      "Area Damage": 100,
+      "DPS": 90
+    }
   }
 }
