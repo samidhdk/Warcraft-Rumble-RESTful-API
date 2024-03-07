@@ -199,7 +199,7 @@ Will return:
 
 Retrieves a JSON string list with the 3 talents of the unit.
 
-` id options: 1 - 70 `
+` id options: 1 - 71 `
 
 ## /units/stats/{unit_id}
 
