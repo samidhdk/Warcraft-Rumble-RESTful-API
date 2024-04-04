@@ -91,9 +91,9 @@ Retrieves a JSON file containing information about all units belonging to the sp
 Retrieves a JSON file containing information about all units of the specified type.
 
 **Unit type options:**
-- Leader
-- Spell
-- Troop
+- leader
+- spell
+- troop
 
 ## /units/cost/{unit_cost}
 
