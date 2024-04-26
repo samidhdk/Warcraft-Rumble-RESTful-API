@@ -1,5 +1,5 @@
-{
-  "1": {
+[
+  {
     "id": 1,
     "cost": 6,
     "name": "Abomination",
@@ -25,7 +25,7 @@
       "Speed": "Slow"
     }
   },
-  "2": {
+  {
     "id": 2,
     "cost": 2,
     "name": "Angry Chickens",
@@ -51,7 +51,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "3": {
+  {
     "id": 3,
     "cost": 1,
     "name": "Arcane Blast",
@@ -74,7 +74,7 @@
       "Radius": 5
     }
   },
-  "4": {
+  {
     "id": 4,
     "cost": 4,
     "name": "Banshee",
@@ -96,7 +96,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "5": {
+  {
     "id": 5,
     "cost": 4,
     "name": "Baron Rivendare",
@@ -124,7 +124,7 @@
       "Speed": "Fast"
     }
   },
-  "6": {
+  {
     "id": 6,
     "cost": 2,
     "name": "Bat Rider",
@@ -153,7 +153,7 @@
       "Speed": "Medium"
     }
   },
-  "7": {
+  {
     "id": 7,
     "cost": 4,
     "name": "Blizzard",
@@ -178,7 +178,7 @@
       "Duration": 5
     }
   },
-  "8": {
+  {
     "id": 8,
     "cost": 4,
     "name": "Bloodmage Thalnos",
@@ -204,7 +204,7 @@
       "Range": 8.5
     }
   },
-  "9": {
+  {
     "id": 9,
     "cost": 5,
     "name": "Cairne Bloodhoof",
@@ -229,7 +229,7 @@
       "Attack Speed": 2.5
     }
   },
-  "10": {
+  {
     "id": 10,
     "cost": 2,
     "name": "Chain Lightning",
@@ -252,7 +252,7 @@
       "Radius": 5
     }
   },
-  "11": {
+  {
     "id": 11,
     "cost": 2,
     "name": "Charlga Razorflank",
@@ -281,7 +281,7 @@
       "Percent DPS": 8
     }
   },
-  "12": {
+  {
     "id": 12,
     "cost": 3,
     "name": "Cheat Death",
@@ -303,7 +303,7 @@
       "Lvl Advantage": "0.5 Sec"
     }
   },
-  "13": {
+  {
     "id": 13,
     "cost": 6,
     "name": "Core Hounds",
@@ -330,7 +330,7 @@
       "Speed": "Slow"
     }
   },
-  "14": {
+  {
     "id": 14,
     "cost": 2,
     "name": "Dark Iron Miner",
@@ -357,7 +357,7 @@
       "Speed": "Medium"
     }
   },
-  "15": {
+  {
     "id": 15,
     "cost": 3,
     "name": "Darkspear Troll",
@@ -382,7 +382,7 @@
       "Range": 9
     }
   },
-  "16": {
+  {
     "id": 16,
     "cost": 4,
     "name": "Deep Breath",
@@ -404,7 +404,7 @@
       "Range": 25
     }
   },
-  "17": {
+  {
     "id": 17,
     "cost": 1,
     "name": "Defias Bandits",
@@ -431,7 +431,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "18": {
+  {
     "id": 18,
     "cost": 4,
     "name": "Drake",
@@ -456,7 +456,7 @@
       "Speed": "Medium"
     }
   },
-  "19": {
+  {
     "id": 19,
     "cost": 3,
     "name": "Earth Elemental",
@@ -484,7 +484,7 @@
       "Speed": "Medium"
     }
   },
-  "20": {
+  {
     "id": 20,
     "cost": 3,
     "name": "Execute",
@@ -506,7 +506,7 @@
       "Percent Dmg": 50
     }
   },
-  "21": {
+  {
     "id": 21,
     "cost": 4,
     "name": "Fire Elemental",
@@ -533,7 +533,7 @@
       "Speed": "Medium"
     }
   },
-  "22": {
+  {
     "id": 22,
     "cost": 4,
     "name": "Firehammer",
@@ -560,7 +560,7 @@
       "Range": 9
     }
   },
-  "23": {
+  {
     "id": 23,
     "cost": 4,
     "name": "Flamewaker",
@@ -587,7 +587,7 @@
       "Range": 7.5
     }
   },
-  "24": {
+  {
     "id": 24,
     "cost": 5,
     "name": "Footmen",
@@ -613,7 +613,7 @@
       "Speed": "Slow"
     }
   },
-  "25": {
+  {
     "id": 25,
     "cost": 4,
     "name": "Frostwolf Shaman",
@@ -641,7 +641,7 @@
       "Healing": 80
     }
   },
-  "26": {
+  {
     "id": 26,
     "cost": 4,
     "name": "Gargoyle",
@@ -669,7 +669,7 @@
       "Speed": "Slow"
     }
   },
-  "27": {
+  {
     "id": 27,
     "cost": 5,
     "name": "General Drakkisath",
@@ -696,7 +696,7 @@
       "Speed": "Slow"
     }
   },
-  "28": {
+  {
     "id": 28,
     "cost": 2,
     "name": "Ghoul",
@@ -723,7 +723,7 @@
       "Speed": "Medium"
     }
   },
-  "29": {
+  {
     "id": 29,
     "cost": 3,
     "name": "Gnoll Brute",
@@ -748,7 +748,7 @@
       "Speed": "Medium"
     }
   },
-  "30": {
+  {
     "id": 30,
     "cost": 2,
     "name": "Goblin Sapper",
@@ -772,7 +772,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "31": {
+  {
     "id": 31,
     "cost": 4,
     "name": "Grommash Hellscream",
@@ -798,7 +798,7 @@
       "Speed": "Medium"
     }
   },
-  "32": {
+  {
     "id": 32,
     "cost": 2,
     "name": "Gryphon Rider",
@@ -824,7 +824,7 @@
       "Range": 5
     }
   },
-  "33": {
+  {
     "id": 33,
     "cost": 3,
     "name": "Harpies",
@@ -849,7 +849,7 @@
       "Speed": "Fast"
     }
   },
-  "34": {
+  {
     "id": 34,
     "cost": 3,
     "name": "Harvest Golem",
@@ -875,7 +875,7 @@
       "Speed": "Slow"
     }
   },
-  "35": {
+  {
     "id": 35,
     "cost": 4,
     "name": "Hogger",
@@ -900,7 +900,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "36": {
+  {
     "id": 36,
     "cost": 3,
     "name": "Holy Nova",
@@ -923,7 +923,7 @@
       "Healing": 280
     }
   },
-  "37": {
+  {
     "id": 37,
     "cost": 5,
     "name": "Huntress",
@@ -950,7 +950,7 @@
       "Range": 7.5
     }
   },
-  "38": {
+  {
     "id": 38,
     "cost": 3,
     "name": "Jaina Proudmoore",
@@ -977,7 +977,7 @@
       "Range": 7
     }
   },
-  "39": {
+  {
     "id": 39,
     "cost": 6,
     "name": "Living Bomb",
@@ -999,7 +999,7 @@
       "Radius": 6
     }
   },
-  "40": {
+  {
     "id": 40,
     "cost": 6,
     "name": "Maiev Shadowsong",
@@ -1026,7 +1026,7 @@
       "Fan Damage": 300
     }
   },
-  "41": {
+  {
     "id": 41,
     "cost": 3,
     "name": "Meat Wagon",
@@ -1054,7 +1054,7 @@
       "Range": 11
     }
   },
-  "42": {
+  {
     "id": 42,
     "cost": 6,
     "name": "Molten Giant",
@@ -1081,7 +1081,7 @@
       "Speed": "Medium"
     }
   },
-  "43": {
+  {
     "id": 43,
     "cost": 6,
     "name": "Mountaineer",
@@ -1111,7 +1111,7 @@
       "Dwarf Range": 8.5
     }
   },
-  "44": {
+  {
     "id": 44,
     "cost": 2,
     "name": "Murloc Tidehunters",
@@ -1138,7 +1138,7 @@
       "Range": 6.5
     }
   },
-  "45": {
+  {
     "id": 45,
     "cost": 4,
     "name": "Necromancer",
@@ -1165,7 +1165,7 @@
       "Range": 7.5
     }
   },
-  "46": {
+  {
     "id": 46,
     "cost": 5,
     "name": "Ogre Mage",
@@ -1192,7 +1192,7 @@
       "Range": 8
     }
   },
-  "47": {
+  {
     "id": 47,
     "cost": 4,
     "name": "Old Murk-Eye",
@@ -1219,7 +1219,7 @@
       "Range": 6.5
     }
   },
-  "48": {
+  {
     "id": 48,
     "cost": 2,
     "name": "Plague Farmer",
@@ -1248,7 +1248,7 @@
       "Range": 9
     }
   },
-  "49": {
+  {
     "id": 49,
     "cost": 3,
     "name": "Polymorph",
@@ -1270,7 +1270,7 @@
       "Lvl Advantage": "0.5 Sec"
     }
   },
-  "50": {
+  {
     "id": 50,
     "cost": 3,
     "name": "Prowler",
@@ -1296,7 +1296,7 @@
       "Speed": "Fast"
     }
   },
-  "51": {
+  {
     "id": 51,
     "cost": 3,
     "name": "Pyromancer",
@@ -1321,7 +1321,7 @@
       "Range": 8
     }
   },
-  "52": {
+  {
     "id": 52,
     "cost": 2,
     "name": "Quilboar",
@@ -1349,7 +1349,7 @@
       "Speed": "Medium"
     }
   },
-  "53": {
+  {
     "id": 53,
     "cost": 1,
     "name": "Raptors",
@@ -1375,7 +1375,7 @@
       "Speed": "Fast"
     }
   },
-  "54": {
+  {
     "id": 54,
     "cost": 6,
     "name": "Rend Blackhand",
@@ -1404,7 +1404,7 @@
       "Gyth Range": 4
     }
   },
-  "55": {
+  {
     "id": 55,
     "cost": 3,
     "name": "S.A.F.E. Pilot",
@@ -1432,7 +1432,7 @@
       "Speed": "Medium"
     }
   },
-  "56": {
+  {
     "id": 56,
     "cost": 4,
     "name": "Skeleton Party",
@@ -1461,7 +1461,7 @@
       "Range": 7
     }
   },
-  "57": {
+  {
     "id": 57,
     "cost": 2,
     "name": "Skeletons",
@@ -1487,7 +1487,7 @@
       "Speed": "Medium"
     }
   },
-  "58": {
+  {
     "id": 58,
     "cost": 1,
     "name": "Smoke Bomb",
@@ -1510,7 +1510,7 @@
       "Lvl Advantage": "0.5 Sec"
     }
   },
-  "59": {
+  {
     "id": 59,
     "cost": 5,
     "name": "Sneed",
@@ -1537,7 +1537,7 @@
       "Speed": "Medium"
     }
   },
-  "60": {
+  {
     "id": 60,
     "cost": 2,
     "name": "Spiderlings",
@@ -1565,7 +1565,7 @@
       "Duration": 5
     }
   },
-  "61": {
+  {
     "id": 61,
     "cost": 4,
     "name": "Stonehoof Tauren",
@@ -1591,7 +1591,7 @@
       "Speed": "Medium"
     }
   },
-  "62": {
+  {
     "id": 62,
     "cost": 6,
     "name": "Sylvannas Windrunner",
@@ -1617,7 +1617,7 @@
       "Speed": "Medium"
     }
   },
-  "63": {
+  {
     "id": 63,
     "cost": 4,
     "name": "Tirion Fordring",
@@ -1645,7 +1645,7 @@
       "Healing": 160
     }
   },
-  "64": {
+  {
     "id": 64,
     "cost": 1,
     "name": "Vultures",
@@ -1671,7 +1671,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "65": {
+  {
     "id": 65,
     "cost": 5,
     "name": "Warsong Grunts",
@@ -1697,7 +1697,7 @@
       "Speed": "Medium"
     }
   },
-  "66": {
+  {
     "id": 66,
     "cost": 4,
     "name": "Warsong Raider",
@@ -1724,7 +1724,7 @@
       "Speed": "Fast"
     }
   },
-  "67": {
+  {
     "id": 67,
     "cost": 3,
     "name": "Whelp Eggs",
@@ -1752,7 +1752,7 @@
       "Range": 3.5
     }
   },
-  "68": {
+  {
     "id": 68,
     "cost": 3,
     "name": "Worgen",
@@ -1779,7 +1779,7 @@
       "Speed": "Med-Fast"
     }
   },
-  "69": {
+  {
     "id": 69,
     "cost": 5,
     "name": "Chimaera",
@@ -1807,7 +1807,7 @@
       "Left DPS": 50
     }
   },
-  "70": {
+  {
     "id": 70,
     "cost": 4,
     "name": "Emperor Thaurissan",
@@ -1834,7 +1834,7 @@
       "Attack Speed": 2.6
     }
   },
-  "71": {
+  {
     "id": 71,
     "cost": 2,
     "name": "Witch Doctor",
@@ -1854,11 +1854,40 @@
     ],
     "stats": {
       "Health": 300,
-      "Damage": 18,
       "Speed": "Medium",
       "Range": 8,
-      "Area Damage": 100,
-      "DPS": 90
+      "Damage": 18,
+      "DPS": 90,
+      "Area Damage": 100
+    }
+  },
+  {
+    "id": 72,
+    "cost": 3,
+    "name": "Faerie Dragon",
+    "faction": "Cenarion",
+    "type": "Troop",
+    "description": "This flying trickster can see through Stealth, and shakes off Poison, Burn, Stuns, and Slows!",
+    "traits": [
+      "Elemental",
+      "Resistant",
+      "Detect",
+      "Nullify",
+      "Flying",
+      "One-Target"
+    ],
+    "talents": [
+      "Phase Shift:Teleport backwards when attacked.",
+      "Invisibility: Gain Stealth.",
+      "Fae Blessing: Once per deploy, grant Resist to a nearby Ally."
+    ],
+    "stats": {
+      "Damage": 170,
+      "Health": 180,
+      "DPS": 113,
+      "Attack Speed": 1.5,
+      "Range": 5,
+      "Speed": "Medium"
     }
   }
-}
+]
