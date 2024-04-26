@@ -73,7 +73,7 @@ Retrieves a JSON file containing information about all available units.
 
 Retrieves a JSON file containing information about the specified unit.
 
-` id options: 1 - 71 `
+` id options: 1 - 72 `
 
 ## /units/faction/{unit_faction}
 
@@ -85,6 +85,7 @@ Retrieves a JSON file containing information about all units belonging to the sp
 - Blackrock
 - Horde
 - Undead
+- Cenarion
 
 ## /units/type/{unit_type}
 
@@ -120,6 +121,7 @@ Retrieves a JSON file containing information about all units with the specified 
 - Charge
 - Cheap Shot
 - Cycle
+- Detect
 - Dismounts
 - Elemental
 - Fast
@@ -136,6 +138,7 @@ Retrieves a JSON file containing information about all units with the specified 
 - Longshot
 - Melee
 - Miner
+- Nullify
 - Percent Damage
 - Poisonous
 - Possession
@@ -199,13 +202,13 @@ Will return:
 
 Retrieves a JSON string list with the 3 talents of the unit.
 
-` id options: 1 - 71 `
+` id options: 1 - 72 `
 
 ## /units/stats/{unit_id}
 
 Retrieves a JSON Object with the stats of the unit.
 
-` id options: 1 - 71 `
+` id options: 1 - 72 `
 
 Table of stats and it type:
 
