@@ -1,3 +1,5 @@
+# :warning: **This project is not mantained anymore**
+
 <h1 align="center">Unofficial Warcraft Rumble RESTful API</h1>
 
 ![title](Images/wcrumbleuoapi.jpg)
